@@ -1,6 +1,4 @@
-
-
-    <?php
+<?php
 
     // Include config file
 

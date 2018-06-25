@@ -1,6 +1,4 @@
-
-
-    <?php
+<?php
 
     // Check existence of id parameter before processing further
 

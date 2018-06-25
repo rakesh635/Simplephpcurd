@@ -1,6 +1,4 @@
-
-
-    <?php
+<?php
 
     // Process delete operation after confirmation
 
