@@ -18,7 +18,7 @@
 
     define('DB_PASSWORD', getenv("mysqlPswd"));
 
-    define('DB_NAME', 'curddb');
+    define('DB_NAME', 'testdb');
 
      
 
