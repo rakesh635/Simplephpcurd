@@ -12,11 +12,11 @@
 
     define('DB_PASSWORD', 'password');*/
     
-    define('DB_SERVER', $_ENV("mysqlEndpoint"));
+    define('DB_SERVER', getenv("mysqlEndpoint"));
 
-    define('DB_USERNAME', $_ENV("mysqlUname"));
+    define('DB_USERNAME', getenv("mysqlUname"));
 
-    define('DB_PASSWORD', $_ENV("mysqlPswd"));
+    define('DB_PASSWORD', getenv("mysqlPswd"));
 
     define('DB_NAME', 'curddb');
 
