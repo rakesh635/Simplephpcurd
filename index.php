@@ -61,6 +61,8 @@
                     <div class="col-md-12">
 
                         <div class="page-header clearfix">
+							
+							<h2>Welcome to <?php echo gethostname(); ?>(host)</h2>
 
                             <h2 class="pull-left">Employees Details</h2>
 

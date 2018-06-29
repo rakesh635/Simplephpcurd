@@ -6,13 +6,19 @@
 
     server with default setting (user 'root' with no password) */
 
-    define('DB_SERVER', 'mysql-db.cinbwplpl4rh.ap-south-1.rds.amazonaws.com');
+    /*define('DB_SERVER', 'mysql-db.cinbwplpl4rh.ap-south-1.rds.amazonaws.com');
 
     define('DB_USERNAME', 'root');
 
-    define('DB_PASSWORD', 'password');
+    define('DB_PASSWORD', 'password');*/
+    
+    define('DB_SERVER', $_ENV("mysqlEndpoint"));
 
-    define('DB_NAME', 'testdb');
+    define('DB_USERNAME', $_ENV("mysqlUname"));
+
+    define('DB_PASSWORD', $_ENV("mysqlPswd"));
+
+    define('DB_NAME', 'curddb');
 
      
 
