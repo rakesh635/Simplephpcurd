@@ -16,5 +16,9 @@ RUN chmod 775 /entrypoint.sh
 # Update the default apache site with the config we created.
 ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 
+ADD https://get.aquasec.com/microscanner .
+RUN chmod +x microscanner
+RUN ./microscanner MWNiYmZjZmY1Zjgy
+
 # By default, simply start apache.
 RUN service apache2 restart
