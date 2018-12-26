@@ -18,7 +18,7 @@ ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 
 ADD https://get.aquasec.com/microscanner .
 RUN chmod +x microscanner
-RUN ./microscanner MWNiYmZjZmY1Zjgy
+RUN ./microscanner MWNiYmZjZmY1Zjgy --html
 
 # By default, simply start apache.
 RUN service apache2 restart
